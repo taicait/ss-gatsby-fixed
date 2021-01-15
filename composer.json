@@ -1,0 +1,26 @@
+{
+    "name": "taicait/ss-gatsby",
+    "description": "SilverStripe Gatsby fixed",
+    "type": "silverstripe-vendormodule",
+    "license": "MIT",
+    "keywords": [
+        "silverstripe",
+        "gatsby"
+    ],
+    "authors": [
+        {
+            "name": "Tran Tai",
+            "homepage": "https://undigital.com.au/"
+        }
+    ],
+    "require": {
+        "silverstripe/cms": "^4.4",
+        "unclecheese/silverstripe-graphql-forms": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "SilverStripe\\Gatsby\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
